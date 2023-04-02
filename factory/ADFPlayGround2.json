@@ -1,0 +1,9 @@
+{
+	"name": "ADFPlayGround2",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "28ef13ee-b3d6-4d1c-b928-88cf66f2f568",
+		"tenantId": "91cc1fb6-1275-4acf-b3ea-c213ec16257b"
+	}
+}
