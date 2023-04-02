@@ -1,0 +1,30 @@
+{
+	"name": "csv_source_text",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_learnstoragedev001",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Test.csv",
+				"folderPath": "TestCSV",
+				"fileSystem": "source"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"type": "String"
+			},
+			{
+				"type": "String"
+			}
+		]
+	}
+}
